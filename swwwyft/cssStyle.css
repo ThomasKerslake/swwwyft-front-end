@@ -84,6 +84,8 @@ li a {
 	text-align: center;
 }
 
+/*--------------------------------footer----------------------------------*/
+
 .footer {
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
@@ -103,6 +105,7 @@ li a {
 	margin-bottom: 10px;
 }
 
+/*--------------------------------Navbar----------------------------------*/
 .navLink {
 	color: black;
 	display: block;
@@ -185,7 +188,8 @@ li a {
 	-webkit-filter: drop-shadow(3px 3px 15px rgba(0, 0, 0, .1));
 	filter: drop-shadow(3px 3px 15px rgba(0, 0, 0, .1));
 }
-/*-------------------------------------------------------------------*/
+
+/*--------------------------------SiteExampleImages----------------------------------*/
 
 .landPlayout {
 	height: auto;
@@ -213,6 +217,8 @@ li a {
 	transform: scale(0.75);
 	visibility: hidden;
 }
+
+/*--------------------------------Tagline-Info-ActionBtn----------------------------------*/
 
 .tagline {
 	margin-left: 30px;
@@ -269,6 +275,8 @@ li a {
 	margin-top: 50px;
 }
 
+/*--------------------------------SiteExampleTags----------------------------------*/
+
 .lpText1 {
 	position: absolute;
 	font-family: 'Roboto', sans-serif;
@@ -292,7 +300,7 @@ li a {
 	display: none;
 }
 
-/*---------------------------LowerPageInfoBlocks------------------------------*/
+/*------------------------------LowerPageInfoBlocks-------------------------------*/
 .stepsContainer {
 	width: 100vw;
 	margin-top: 260px;
@@ -405,7 +413,7 @@ li a {
 	animation: fadein 2.5s;
 }
 
-/*-----------------------------Keyframes--------------------------------*/
+/*--------------------------------Keyframes----------------------------------*/
 
 @keyframes wiggle {
 	0% {
@@ -432,7 +440,6 @@ li a {
 	}
 }
 
-/* Firefox */
 @-moz-keyframes fadein {
 	0% {
 		opacity: 0;
@@ -446,7 +453,6 @@ li a {
 	}
 }
 
-/* Safari, Chrome and Opera */
 @-webkit-keyframes fadein {
 	0% {
 		opacity: 0;
@@ -460,7 +466,6 @@ li a {
 	}
 }
 
-/* Internet Explorer */
 @-ms-keyframes fadein {
 	0% {
 		opacity: 0;
