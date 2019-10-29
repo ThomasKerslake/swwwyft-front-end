@@ -1,0 +1,85 @@
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	z-index: 5;
+}
+
+.slant-box-1,
+.slant-box-2,
+.slant-box-3 {
+	position: absolute;
+	width: 150px;
+	height: 245px;
+	right: 50%;
+	top: 50%;
+	z-index: -1;
+}
+
+.slant-1 {
+	position: absolute;
+	top: -61px;
+	left: 70px;
+	width: 46px;
+	height: 46px;
+	transform: skew(-20deg);
+	background: #60e19d;
+}
+
+.slant-2 {
+	position: absolute;
+	top: -61px;
+	left: 120px;
+	width: 46px;
+	height: 46px;
+	transform: skew(-20deg);
+	background: #60e19d;
+}
+
+.slant-3 {
+	position: absolute;
+	top: -61px;
+	left: 170px;
+	width: 46px;
+	height: 46px;
+	transform: skew(-20deg);
+	background: #60e19d;
+}
+
+.slant-box-1 {
+	animation: Loading .8s ease-in-out infinite;
+}
+.slant-box-2 {
+	animation: Loading .8s ease-in-out infinite;
+}
+.slant-box-3 {
+	animation: Loading .8s ease-in-out infinite;
+}
+
+.slant-box-1 {
+	animation-delay: .4s;
+}
+.slant-box-2 {
+	animation-delay: .3s;
+}
+.slant-box-3 {
+	animation-delay: .2s;
+}
+
+@keyframes Loading {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
