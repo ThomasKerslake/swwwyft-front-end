@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.animation-box-text h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.2em;
+}
+
+.svgShadow {
+	-webkit-filter: drop-shadow(3px 3px 15px rgba(0, 0, 0, .1));
+	filter: drop-shadow(3px 3px 15px rgba(0, 0, 0, .1));
+}
+
+.upload-blob {
+	z-index: -5;
+	transform: scale(.9);
+	transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+}
+
+.upload-box {
+	transform: scale(1);
+	transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+}
+.upload-blob:hover {
+	z-index: -5;
+	transform: scale(.95);
+	transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+}
+
+.animation-box {
+	position: absolute;
+	margin-top: -490px;
+	margin-left: 250px;
+	transform: scale(.7);
+}
+
+.animation-box-text {
+	margin-bottom: 20px;
+	margin-left: -20px;
+}
+
+.cloud-box {
+	position: absolute;
+}
+
+.arrow-box {
+	position: absolute;
+	animation: Loading .8s ease-in-out infinite;
+	margin-left: 140px;
+	margin-top: 190px;
+}
+
+.flex-container {
+	height: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.row {
+	width: auto;
+}
+
+@keyframes Loading {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(30px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}
